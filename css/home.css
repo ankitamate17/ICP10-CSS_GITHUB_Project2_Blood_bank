@@ -185,29 +185,71 @@
 }
 
 @media screen and (max-width: 600px) {
-    .container_pr{
-        margin: 10px;
-        border: 5px solid rgb(0, 0, 0);
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        font-size: medium;
-    }
+   .container_pr{
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: medium;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+}
     .item_pr1{
-        
+        width: 400px;
+        background-color: #d63031;
+        padding: 55px 15px;
+        color: white;
     }
     .item_pr2{
-        
+        width: 400px;
+        background-color: gray;
+        padding: 15px;
+        color: white;
     }
     .item_pr3{
         
+        width: 400px;
+        background-color: #d63031;
+        padding: 15px;
+        color: white;
     }
 }
 
 @media screen and (min-width:600px) and (max-width:992px){
+        .container_pr{
+         margin: 10px;
+         border-radius: 15px;
+         display: flex;
+         flex-direction: column;
+         align-items:center;
+         font-size: large;
+         padding: 10px;
+         justify-content: space-around;
+         text-align: center;
+     }
+         .item_pr1{
+             width: 400px;
+             background-color: #d63031;
+             padding: 55px 15px;
+             color: white;
+         }
+         .item_pr2{
+             width: 400px;
+             background-color: gray;
+             padding: 15px;
+             color: white;
+         }
+         .item_pr3{
+             
+             width: 400px;
+             background-color: #d63031;
+             padding: 15px;
+             color: white;
+         }
+     }
 
-}
 
 @media screen and (min-width:992px) and (max-width:1700px){
     .container_pr{
@@ -224,26 +266,36 @@
     .item_pr1{
         margin: 5px;
         width: 400px;
-        background-color: tomato;
+        background-color: #d63031;
         padding: 55px 5px;
         border-radius: 10px;
         border: 2px solid rgb(0, 0, 0);
-
+        color: white;
     }
     .item_pr2{
         margin: 15px 5px;
         width: 400px;
-        background-color:rgb(170, 120, 216);
+        background-color: gray;
         padding: 15px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
+        color: white;
     }
     .item_pr3{
         margin: 5px;
         width: 400px;
-        background-color: rgb(131, 212, 222);
+        background-color: #d63031;
         padding: 15px;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
+        color: white;
     }
+}
+
+.acenter{
+    text-align: center;
+}
+
+.clr_wht{
+    color: white;
 }
