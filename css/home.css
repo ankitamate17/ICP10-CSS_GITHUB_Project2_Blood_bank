@@ -39,30 +39,14 @@
     font-weight: bold;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 10px;
-    
-}
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 10px;
+        
+    }
 
-.video_container{
-    margin: 2px;
-    width: fit-content;
-    
-}
 
-.unordered_list{
-    
-    list-style-type:none;
-    padding: 0px 20px;
 }
-
-.unordered_list li{
-    list-style-type: circle;
-}
-.item-img{
-    width: 350px;
-}
-
