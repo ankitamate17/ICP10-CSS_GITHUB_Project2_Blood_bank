@@ -1,13 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-}
-
-.section{
-    
-    border-radius: none;
-    background-color: brown;
-    
-
+box-sizing: border-box;
+font-family: "poppins", sans-serif
 }
 
