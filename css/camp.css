@@ -39,8 +39,7 @@
     height: 300px;
     width: 600px;
     background-size: cover;
-    border-radius: 15px;
-    border: 1px solid black;
+    
 }
 
 .d-img1{
@@ -49,8 +48,6 @@
     width: 600px;
     background-size: cover;
     margin-left: 30px;
-    border-radius: 15px;
-    border: 1px solid black;
 }
 
 .d-para{
@@ -84,7 +81,6 @@
     width: 340px;
     background-size: cover;
     margin-left: 100px;
-    border-radius: 20px;
 }
 
 .d2-sub-title{
@@ -138,8 +134,6 @@
     width: 500px;
     background-size: cover;
     margin-left: 170px;
-    border-radius: 10px;
-    border: 1px solid black;
 }
 
 .d3-right{
