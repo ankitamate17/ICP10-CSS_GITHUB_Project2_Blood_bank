@@ -39,7 +39,8 @@
     height: 300px;
     width: 600px;
     background-size: cover;
-    
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .d-img1{
@@ -48,6 +49,8 @@
     width: 600px;
     background-size: cover;
     margin-left: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .d-para{
@@ -81,6 +84,7 @@
     width: 340px;
     background-size: cover;
     margin-left: 100px;
+    border-radius: 20px;
 }
 
 .d2-sub-title{
@@ -88,6 +92,17 @@
   
    
 }
+
+.d2-quot{
+    display: flex;
+}
+
+
+
+
+
+
+
 
 .heading2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -107,12 +122,15 @@
 
 .d3-baground{
     background-color: azure;
-    height: 700px;
+    height: 900px;
 }
 
 .d3-parts{
     display: flex;
 }
+
+
+
 
 .d3-left{
     background-image: url(https://www.redcrossblood.org/content/dam/redcrossblood/rcb/misc/13433010_1.jpg.img.jpeg);
@@ -120,6 +138,8 @@
     width: 500px;
     background-size: cover;
     margin-left: 170px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .d3-right{
@@ -133,34 +153,82 @@
     margin-top: 20px;
 }
 
-.d3-title{
-    padding-left: 165px;
-    padding-top: 30px;
-}
-
-.info-2{
+.d3-que{
+    margin-top: 40px;
     margin-left: 200px;
-    font-size: large;
+    width: 60%;
+}
 
+.d3-q1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 40px;
+    
+}
+
+.d3-q1ans{
+    padding-top: 20px;
+}
+
+.d4-baground{
+    margin-top: 60px;
+    background-image: url(d3-camp\ bag.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.d5-baground{
+    height: 700px;
+}
+
+.d5-q1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
 
 }
 
-.video{
-    padding-left: 160px;
-    padding-top: 50px;
+.d5-lef{
+    
 }
 
-.btn1{
-    border: none;
-    background-color: #d63031;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 700px;
-    margin-top: 10px;
 
+
+
+
+
+.d6-baground{
+    background-color: rgb(54, 53, 53);
+    height: 90px;
+    align-items: center;
+    padding-top: 40px;
+    
 }
 
-.btn1:hover{
-   background-color: rgb(7, 6, 4);
+.appointment{
+    background-color: rgb(255, 47, 47);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    margin-left: 600px
+}
+
+.d5-video{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.d5-info{
+    display: flex;
+}
+
+.d5-right-info{
+    width:80%;
+    margin-left: 100px;
+    margin-top: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
