@@ -138,6 +138,8 @@
     width: 500px;
     background-size: cover;
     margin-left: 170px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .d3-right{
